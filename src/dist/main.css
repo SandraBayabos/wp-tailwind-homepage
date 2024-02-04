@@ -1200,6 +1200,14 @@ select#reference {
     margin-top: 0px;
   }
 
+  .lg\:mb-3 {
+    margin-bottom: 0.75rem;
+  }
+
+  .lg\:mb-3\.5 {
+    margin-bottom: 0.875rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1264,6 +1272,10 @@ select#reference {
     gap: 2rem;
   }
 
+  .lg\:gap-14 {
+    gap: 3.5rem;
+  }
+
   .lg\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -1293,6 +1305,26 @@ select#reference {
 
   .lg\:pt-16 {
     padding-top: 4rem;
+  }
+
+  .lg\:pr-8 {
+    padding-right: 2rem;
+  }
+
+  .lg\:pr-0 {
+    padding-right: 0px;
+  }
+
+  .lg\:pl-0 {
+    padding-left: 0px;
+  }
+
+  .lg\:pb-24 {
+    padding-bottom: 6rem;
+  }
+
+  .lg\:pt-24 {
+    padding-top: 6rem;
   }
 
   .lg\:text-left {
