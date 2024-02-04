@@ -37,7 +37,7 @@
       </h1>
     </section>
 
-    <section class="py-14">
+    <section class="pt-14">
       <div class="container pb-4">
         <h4
           class="font-clashDisplay text-4xl font-light"
@@ -91,36 +91,53 @@
           Read More
         </button>
       </div>
-      <div class="container flex flex-col">
+
+      <div
+        class="container flex flex-col mb-10 md:flex-row md: justify-around gap-4"
+      >
         <div
-          class="py-10 px-9 rounded-tr-3xl rounded-br-3xl rounded-bl-3xl flex flex-col justify-center items-center mb-4"
+          class="md:w-1/3 py-10 px-9 rounded-tr-3xl rounded-br-3xl rounded-bl-3xl flex flex-col justify-center items-center mb-4"
           style="background: linear-gradient(140deg, white 0%, #a2ffea 100%)"
         >
-          <p class="text-7xl font-clashDisplay font-semibold text-teal">13+</p>
-          <p class="text-sm font-inter">Years in Business</p>
+          <p
+            class="text-7xl md:text-8xl font-clashDisplay font-semibold text-teal"
+          >
+            13+
+          </p>
+          <p class="text-sm md:text-base font-inter">Years in Business</p>
         </div>
         <div
-          class="py-10 px-9 rounded-tr-3xl rounded-br-3xl rounded-bl-3xl flex flex-col justify-center items-center mb-4"
+          class="md:w-1/3 py-10 px-9 rounded-tr-3xl rounded-br-3xl rounded-bl-3xl flex flex-col justify-center items-center mb-4"
           style="background: linear-gradient(140deg, white 0%, #a2ffea 100%)"
         >
-          <p class="text-7xl font-clashDisplay font-semibold text-teal">
+          <p
+            class="text-7xl md:text-8xl font-clashDisplay font-semibold text-teal"
+          >
             2000+
           </p>
-          <p class="text-sm font-inter">Events Done</p>
+          <p class="text-sm md:text-base font-inter">Events Done</p>
         </div>
         <div
-          class="py-10 px-9 rounded-tr-3xl rounded-br-3xl rounded-bl-3xl flex flex-col justify-center items-center mb-4"
+          class="md:w-1/3 py-10 px-9 rounded-tr-3xl rounded-br-3xl rounded-bl-3xl flex flex-col justify-center items-center mb-4"
           style="background: linear-gradient(140deg, white 0%, #a2ffea 100%)"
         >
-          <p class="text-7xl font-clashDisplay font-semibold text-teal">98%</p>
-          <p class="text-sm font-inter">Customer Satisfaction</p>
+          <p
+            class="text-7xl md:text-8xl font-clashDisplay font-semibold text-teal"
+          >
+            98%
+          </p>
+          <p class="text-sm md:text-base font-inter">Customer Satisfaction</p>
         </div>
       </div>
 
-      <div class="container flex flex-col bg-teal-100">
-        <div class="container text-center py-6 font-clashDisplay font-light text-2xl">
-          <p>Our Vision</p>
-          <ul class="text-justify text-sm font-inter font-extralight list-disc">
+      <div class="flex flex-col md:flex-row">
+        <div
+          class="container px-10 md:px-20 text-center md:text-left pt-6 pb-14 font-clashDisplay font-light text-2xl bg-teal-100"
+        >
+          <p class="py-4">Our Vision</p>
+          <ul
+            class="text-justify text-sm md:text-base font-inter font-extralight list-disc"
+          >
             <li class="mb-6">
               Our goal is to emerge as the top choice for M.I.C.E services in
               the Asia Pacific Region.
@@ -135,8 +152,229 @@
             </li>
           </ul>
         </div>
-        <div class="container text-center py-6 font-clashDisplay font-light text-2xl">
-          <p>Our Mission</p>
+        <div
+          class="container px-10 md:px-20 text-center md:text-left pt-6 pb-14 font-clashDisplay font-light text-2xl bg-teal-200"
+        >
+          <p class="py-4">Our Mission</p>
+          <p
+            class="text-sm md:text-base text-justify font-inter font-extralight"
+          >
+            We strive to strengthen our standing in the M.I.C.E services through
+            the delivery of innovative solutions that bring added value,
+            creating a competitive edge for our customers in the industry.
+            <br /><br />Our distinctive qualities lie in the application of our
+            expertise in knowledge management, professionalism, and integrity in
+            business management, coupled with our unwavering commitment to
+            ensuring total customer satisfaction.<br /><br />
+            Additionally, we actively contribute to green initiatives by
+            minimizing unnecessary waste and promoting recycling practices.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-14">
+      <h4
+        class="font-clashDisplay text-5xl font-light text-center mb-14"
+        style="
+          background: linear-gradient(93deg, #222741, #217f70 100%);
+          -webkit-text-fill-color: transparent;
+          -webkit-background-clip: text;
+        "
+      >
+        Our <span class="font-medium">Solutions</span>
+      </h4>
+      <div
+        class="flex flex-col md:flex-row flex-wrap justify-center items-center md:container"
+      >
+        <div class="w-full md:w-1/3 relative">
+          <img
+            src="./dist/images/conferences.png"
+            alt="nham conference"
+            class="w-full h-full object-cover"
+          />
+          <div
+            class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-between align-middle text-center items-center py-12 border border-white"
+          >
+            <p class="text-teal-300 text-4xl font-clashDisplay">Conferences</p>
+            <button
+              class="font-inter py-4 px-9 rounded-full text-base"
+              style="
+                background: linear-gradient(97deg, #a2ffea 0%, #eeeeee 100%);
+              "
+            >
+              View More
+            </button>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 relative">
+          <img
+            src="./dist/images/physical-events.png"
+            alt="physical events"
+            class="w-full h-full object-cover"
+          />
+          <div
+            class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-between align-middle text-center items-center py-12 border border-white"
+          >
+            <p class="text-teal-300 text-4xl font-clashDisplay">
+              Physical, Virtual <br />
+              and Hybrid Events
+            </p>
+            <button
+              class="font-inter py-4 px-9 rounded-full text-base"
+              style="
+                background: linear-gradient(97deg, #a2ffea 0%, #eeeeee 100%);
+              "
+            >
+              View More
+            </button>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 relative">
+          <img
+            src="./dist/images/roadshow.png"
+            alt="roadshow"
+            class="w-full h-full object-cover"
+          />
+          <div
+            class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-between align-middle text-center items-center py-12 border border-white"
+          >
+            <p class="text-teal-300 text-4xl font-clashDisplay">Roadshow</p>
+            <button
+              class="font-inter py-4 px-9 rounded-full text-base"
+              style="
+                background: linear-gradient(97deg, #a2ffea 0%, #eeeeee 100%);
+              "
+            >
+              View More
+            </button>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 relative">
+          <img
+            src="./dist/images/booth.png"
+            alt="event booths"
+            class="w-full h-full object-cover"
+          />
+          <div
+            class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-between align-middle text-center items-center py-12 border border-white"
+          >
+            <p class="text-teal-300 text-4xl font-clashDisplay">Booth</p>
+            <button
+              class="font-inter py-4 px-9 rounded-full text-base"
+              style="
+                background: linear-gradient(97deg, #a2ffea 0%, #eeeeee 100%);
+              "
+            >
+              View More
+            </button>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 relative">
+          <img
+            src="./dist/images/launching.png"
+            alt="event launches"
+            class="w-full h-full object-cover"
+          />
+          <div
+            class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-between align-middle text-center items-center py-12 border border-white"
+          >
+            <p class="text-teal-300 text-4xl font-clashDisplay">Launching</p>
+            <button
+              class="font-inter py-4 px-9 rounded-full text-base"
+              style="
+                background: linear-gradient(97deg, #a2ffea 0%, #eeeeee 100%);
+              "
+            >
+              View More
+            </button>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 relative">
+          <img
+            src="./dist/images/teambuilding.png"
+            alt="teambuilding"
+            class="w-full h-full object-cover"
+          />
+          <div
+            class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-between align-middle text-center items-center py-12 border border-white"
+          >
+            <p class="text-teal-300 text-4xl font-clashDisplay">
+              Team Building
+            </p>
+            <button
+              class="font-inter py-4 px-9 rounded-full text-base"
+              style="
+                background: linear-gradient(97deg, #a2ffea 0%, #eeeeee 100%);
+              "
+            >
+              View More
+            </button>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 relative">
+          <img
+            src="./dist/images/gala-dinner.png"
+            alt="gala dinners"
+            class="w-full h-full object-cover"
+          />
+          <div
+            class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-between align-middle text-center items-center py-12 border border-white"
+          >
+            <p class="text-teal-300 text-4xl font-clashDisplay">Gala Dinner</p>
+            <button
+              class="font-inter py-4 px-9 rounded-full text-base"
+              style="
+                background: linear-gradient(97deg, #a2ffea 0%, #eeeeee 100%);
+              "
+            >
+              View More
+            </button>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 relative">
+          <img
+            src="./dist/images/incentive-travel.png"
+            alt="travel incentives"
+            class="w-full h-full object-cover"
+          />
+          <div
+            class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-between align-middle text-center items-center py-12 border border-white"
+          >
+            <p class="text-teal-300 text-4xl font-clashDisplay">
+              Incentive Travel
+            </p>
+            <button
+              class="font-inter py-4 px-9 rounded-full text-base"
+              style="
+                background: linear-gradient(97deg, #a2ffea 0%, #eeeeee 100%);
+              "
+            >
+              View More
+            </button>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 relative">
+          <img
+            src="./dist/images/services.png"
+            alt="creative services graphic design printing services"
+            class="w-full h-full object-cover"
+          />
+          <div
+            class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-between align-middle text-center items-center py-12 border border-white"
+          >
+            <p class="text-teal-300 text-4xl font-clashDisplay">
+              Creative Services - Graphic Design & Printing Services
+            </p>
+            <button
+              class="font-inter py-4 px-9 rounded-full text-base"
+              style="
+                background: linear-gradient(97deg, #a2ffea 0%, #eeeeee 100%);
+              "
+            >
+              View More
+            </button>
+          </div>
         </div>
       </div>
     </section>
