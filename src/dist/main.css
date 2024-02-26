@@ -1177,6 +1177,11 @@ select#reference {
     padding-bottom: 6rem;
   }
 
+  .lg\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .lg\:pb-12 {
     padding-bottom: 3rem;
   }
